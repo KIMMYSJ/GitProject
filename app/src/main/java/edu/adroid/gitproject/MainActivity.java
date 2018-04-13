@@ -7,13 +7,13 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     private Button button;
-    private TextView textview;
+//     private TextView textview;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        textview = findViewById(R.id.textView);
+        TextView textview = findViewById(R.id.textView);
         button = findViewById(R.id.button);
     }
 }
